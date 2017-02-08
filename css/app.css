@@ -1,12 +1,12 @@
 body {
 	font-family: "Verdana";
 	font-size: 14px;
-	background-color: #111;
-	color: #777;
+	background-color: #aaa;
+	color: #333;
 }
 
 figure {
-	border: 1px solid #777;
+	border: 1px solid #333;
 	padding: 10px;
 	width: 180px;
 	margin: 0px;
