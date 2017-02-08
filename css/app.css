@@ -1,10 +1,12 @@
 body {
 	font-family: "Verdana";
 	font-size: 14px;
+	background-color: #111;
+	color: #777;
 }
 
 figure {
-	border: 1px solid black;
+	border: 1px solid #777;
 	padding: 10px;
 	width: 180px;
 	margin: 0px;
@@ -17,4 +19,8 @@ img {
 figcaption {
 	font-style: italic;
 	text-align: center;
+}
+
+p {
+	text-align: justify;
 }
