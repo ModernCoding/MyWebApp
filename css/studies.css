@@ -48,3 +48,21 @@ tbody > tr:nth-child(4) > td {
 	width: 30%;
 }
 
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link {
+	color: #f60;
+}
+
+a:visited {
+	color: #060;
+}
+
+tr.even > td {
+	background-color: #777;
+	color: #000;
+}

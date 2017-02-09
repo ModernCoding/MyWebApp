@@ -1,6 +1,6 @@
 .people {
 	overflow: auto;
-	padding: 0 10px 0 10px;
+	padding: 0 19px 28px 19px;
 	margin: 19px 0 19px 0;
 }
 
@@ -18,9 +18,13 @@
 	font-style: italic;
 }
 
-.name > h2 > a {
+.name > h2 > a, .name > a {
 	color: inherit;
 	text-decoration: none;
+}
+
+figure {
+	margin-bottom: 19px;
 }
 
 #me {
