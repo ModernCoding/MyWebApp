@@ -1,0 +1,13 @@
+.name {
+	width: 20%;
+	float: left;
+}
+
+.biography {
+	width: 80%;
+	float: left;
+}
+
+.name > h2 {
+	font-style: italic;
+}
