@@ -25,3 +25,7 @@ figcaption {
 p {
 	text-align: justify;
 }
+
+audio {
+	width: 100%;
+}
