@@ -62,7 +62,27 @@ a:visited {
 	color: #060;
 }
 
-tr.even > td {
+tr.even {
 	background-color: #777;
 	color: #000;
+}
+
+#my-td {
+	border: 2px solid #333;
+	padding: 28px;
+	margin: 28px 0 28px 0;
+	font-size: 28px;
+	height: 40px;
+}
+
+tr:hover {
+	background-color: #4286f4;
+	color: #ccdfff;
+}
+
+
+.highlighted {
+	color: white;
+	background-color: red;
+	font-weight: bold;
 }
