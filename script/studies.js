@@ -10,7 +10,7 @@ window.onload = function () {
 
 	for (var i = 0, len = td.length; i < len; i++) {
 		
-		td[i].addEventListener("click", function(e){
+		td[i].addEventListener('click', function(e){
 			e.preventDefault();
 
 			var highlighted = document.getElementsByClassName('highlighted');
@@ -18,21 +18,20 @@ window.onload = function () {
 			for (var i = highlighted.length - 1; i >= 0; i--) {
 				highlighted[i].classList.remove('highlighted');
 			}
-			
+
 			this.classList.add('highlighted');
 		});
 
-		td[i].addEventListener("mouseover", function(e){
+		td[i].addEventListener('mouseover', function(e){
 			e.preventDefault();
 			myTd.innerText = this.innerText;
 		});
 
-		td[i].addEventListener("mouseout", function(e){
+		td[i].addEventListener('mouseout', function(e){
 			e.preventDefault();
 			myTd.innerText = '';
 		});
 
 	}
 	
-
 }
